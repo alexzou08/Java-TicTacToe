@@ -170,7 +170,7 @@ public class Game {
         }
         return result;
     }
-
+    //check if x or o wins
     public boolean isWinner(char c) {
         boolean win = false;
         for(int i = 0; i < 3; i++){
