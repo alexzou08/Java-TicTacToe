@@ -1,3 +1,7 @@
+![x wins1](https://user-images.githubusercontent.com/84696428/123515070-b695b580-d6c8-11eb-9f25-b55c0e05d079.png)
+![o wins2](https://user-images.githubusercontent.com/84696428/123515073-bac1d300-d6c8-11eb-961b-b51fee11b2e1.png)
+![tie](https://user-images.githubusercontent.com/84696428/123515076-bc8b9680-d6c8-11eb-8642-b59fa2efa590.png)
+![2D Array Indicies](https://user-images.githubusercontent.com/84696428/123515078-bdbcc380-d6c8-11eb-991c-423c055947f2.png)
 # Java_Udacity_Project1_TicTacToe
 Rules of the Game
 Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O. The game starts with an empty 3x3 grid with 9 cells. The players take turns marking each cell with either an X or an O. The goal for the X player is to get 3 X’s in one line either vertically, horizontally or diagonally. The goal for the O player is to get 3 O’s in one line either vertically, horizontally or diagonally.
