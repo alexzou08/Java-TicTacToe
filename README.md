@@ -4,8 +4,7 @@ Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O.
 
 Once a line is formed the game ends and the player who formed that line wins!
 
-![xwins](https://user-images.githubusercontent.com/84696428/123515391-c5309c80-d6c9-11eb-8810-63e2de981bd4.png)
-![xwins](https://user-images.githubusercontent.com/84696428/123515395-c792f680-d6c9-11eb-8c3e-77aedcd913cd.png)
+![win2](https://user-images.githubusercontent.com/84696428/123515428-ed200000-d6c9-11eb-820f-c21f1626c475.png)
 
 Sometimes there is no winner. This occurs when all of the cells are filled in but there is no line of 3 X's or 3 O's. This often happens, especially when both players are good. In this case, this game ends as a tie.
 
