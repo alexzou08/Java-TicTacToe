@@ -4,12 +4,12 @@ Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O.
 
 Once a line is formed the game ends and the player who formed that line wins!
 
-![x wins1](https://user-images.githubusercontent.com/84696428/123515070-b695b580-d6c8-11eb-9f25-b55c0e05d079.png)
-![o wins2](https://user-images.githubusercontent.com/84696428/123515073-bac1d300-d6c8-11eb-961b-b51fee11b2e1.png)
+![xwins](https://user-images.githubusercontent.com/84696428/123515391-c5309c80-d6c9-11eb-8810-63e2de981bd4.png)
+![xwins](https://user-images.githubusercontent.com/84696428/123515395-c792f680-d6c9-11eb-8c3e-77aedcd913cd.png)
 
 Sometimes there is no winner. This occurs when all of the cells are filled in but there is no line of 3 X's or 3 O's. This often happens, especially when both players are good. In this case, this game ends as a tie.
 
-![tie](https://user-images.githubusercontent.com/84696428/123515076-bc8b9680-d6c8-11eb-8642-b59fa2efa590.png)
+![tie-](https://user-images.githubusercontent.com/84696428/123515378-ba760780-d6c9-11eb-8385-8d9c0d703a62.png)
 
 Code design
 The source code includes 2 main Java files, Game.java and GameUI.java.
@@ -20,7 +20,7 @@ Your job is to implement the checkGameWinner() function in the Game.java file.
 
 String checkGameWinner(char [][] grid) has a 2D char array as an input representing the game grid (see below for details) and it returns a String message indicating which player has won (X wins , O wins, Tie, or None if the game hasn't ended yet)
 
-![2D Array Indicies](https://user-images.githubusercontent.com/84696428/123515078-bdbcc380-d6c8-11eb-991c-423c055947f2.png)
+![grid](https://user-images.githubusercontent.com/84696428/123515355-a500dd80-d6c9-11eb-8634-cabdb7b8142f.png)
 
 doChecks() is another function that is responsible for calling checkGameWinner every time a player takes a turn, so you should not worry about fitting this function into the rest of the program, this is already taken care of.
 
