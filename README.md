@@ -32,4 +32,4 @@ String checkGameWinner(char[][] grid) has a 2D char array as an input representi
 * Get the program to run in IntelliJ as a Game interface
 * Determine all the winning patterns in an array
 * Arrange the logic to return a winning / a tie
-
+* Object Oriented Programming
