@@ -2,6 +2,7 @@
 Rules of the Game
 Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O. The game starts with an empty 3x3 grid with 9 cells. The players take turns marking each cell with either an X or an O. The goal for the X player is to get 3 X’s in one line either vertically, horizontally or diagonally. The goal for the O player is to get 3 O’s in one line either vertically, horizontally or diagonally.
 
+---
 Once a line is formed the game ends and the player who formed that line wins!
 
 ![win2](https://user-images.githubusercontent.com/84696428/123515428-ed200000-d6c9-11eb-820f-c21f1626c475.png)
@@ -10,7 +11,7 @@ Sometimes there is no winner. This occurs when all of the cells are filled in bu
 
 ![tie-](https://user-images.githubusercontent.com/84696428/123515378-ba760780-d6c9-11eb-8385-8d9c0d703a62.png)
 
-Code design
+## Code design
 The source code includes 2 main Java files, Game.java and GameUI.java.
 
 Game.java is where all the game logic code exists.
@@ -23,7 +24,7 @@ String checkGameWinner(char [][] grid) has a 2D char array as an input represent
 
 doChecks() is another function that is responsible for calling checkGameWinner every time a player takes a turn, so you should not worry about fitting this function into the rest of the program, this is already taken care of.
 
-Requirements
+## Requirements
 In checkGameWinner() you should access those cells in the 2D array to find out if X or O has won the game by checking if there’s 3 of the same kind in a row either horizontally, vertically or diagonally!
 
 If you detect a winner, set the variable result to either “X wins” or “O wins” depending on the player who won.
