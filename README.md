@@ -1,4 +1,4 @@
-# Java_Udacity_Project1_TicTacToe
+# Java_TicTacToe
 Rules of the Game
 Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O. The game starts with an empty 3x3 grid with 9 cells. The players take turns marking each cell with either an X or an O. The goal for the X player is to get 3 X’s in one line either vertically, horizontally or diagonally. The goal for the O player is to get 3 O’s in one line either vertically, horizontally or diagonally.
 
