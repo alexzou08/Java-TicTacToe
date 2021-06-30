@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by udacity 2016
+ * Compeleted by Jiaqi June 2021
  * The Main class containing game logic and backend 2D array
  */
 public class Game {
