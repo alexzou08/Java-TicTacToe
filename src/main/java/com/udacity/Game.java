@@ -160,6 +160,8 @@ public class Game {
                 }
             }
         }
+        
+        //isTie has to be before isWinner, or nothing happens in a Tie
         if(isTie == true) {
             result = "Tie";
         }
