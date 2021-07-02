@@ -4,12 +4,12 @@ Tic-Tac-Toe is a 2 player board game. One player is X and the other player is O.
 ---
 * Once a line is formed the game ends and the player who formed that line wins!
 
-<img src= "win.png" width = “200”>
+<img src= "win.png" width = "400">
 
 
 * Sometimes there is no winner. This occurs when all of the cells are filled in but there is no line of 3 X's or 3 O's. This often happens, especially when both players are good. In this case, this game ends as a tie.
 
-<img src= "tie.png" width = “200”>
+<img src= "tie.png" width = "400">
 
 ## Code design
 The source code includes 2 main Java files, Game.java and GameUI.java.
@@ -26,7 +26,7 @@ GameUI.java is where all the user interface code exists.
 
 String checkGameWinner(char[][] grid) has a 2D char array as an input representing the game grid (see below for details) and it returns a String message indicating which player has won (X wins , O wins, Tie, or None if the game hasn't ended yet)
 
-<img src= "grid.png" width = “200”>
+<img src= "grid.png" width = "400">
 
 ## What I have learned
 * Get the program to run in IntelliJ as a Game interface
